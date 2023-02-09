@@ -1,0 +1,103 @@
+.container__inicio {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em;
+}
+
+.inicio__titulo {
+    color: var(--laranja);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16.99px;
+    letter-spacing: 0.05em;
+    margin: 0.2em 2em;
+}
+
+.inicio__subtitulo {
+    padding-bottom: 0em;
+    color: var(--azul-escuro);
+    font-size: 35px;
+    font-weight: 800;
+    width: 60%;
+    margin: 0em 1em;
+}
+
+.inicio__paragrafo {
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 13.09px;
+    color: var(--azul-escuro);
+    width: 50%;
+    margin: 1em 4em;
+}
+
+.inicio__botao {
+    background-color: var(--azul-escuro);
+    color: #FFFFFF;
+    box-shadow: 0px 4px 9px 4px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+    font-size: 8px;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    padding: 1em;
+    margin: 1em 4em;
+}
+
+
+/*Layout desktop*/
+
+@media screen and (min-width: 1728px) {
+    .container__inicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 804px;
+    }
+
+    .inicio__titulo {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 49.09px;
+        letter-spacing: 0.05em;
+        color: var(--laranja);
+        width: 50%;
+        margin-left: 2.4em;
+    }
+
+    .inicio__subtitulo {
+        font-size: 122px;
+        font-weight: 800;
+        line-height: 115.17px;
+        color: var(--azul-escuro);
+        letter-spacing: 0.05em;
+        width: 40%;
+    }
+
+    .inicio__paragrafo {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40.71px;
+        color: var(--azul-escuro);
+        letter-spacing: 0.05em;
+        width: 37%;
+        margin: 1em;
+        margin-left: 4.5em;
+    }
+
+    .inicio__botao {
+        background-color: var(--azul-escuro);
+        color: #FFFFFF;
+        box-shadow: 0px 4px 9px 4px rgba(0, 0, 0, 0.13);
+        border-radius: 15px;
+        font-size: 23px;
+        font-weight: 700;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        width: 25%;
+        margin-left: 5.5em;
+    }
+}

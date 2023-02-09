@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desbrave o IR</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        
+        <!-- Importações do projeto -->
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <!-- Importando o carrosel SwiperJS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="cabecalho__imagem" src="./img/logo_desbrave.png" alt="logo da desbrave">
+            <img class="cabecalho__imagem_mao" src="./img/mao_com_moeda.png" alt="uma mão segurando uma moeda da desbrave">
+        </header>
+        <div class="container__inicio">
+            <h1 class="inicio__titulo">DESBRAVANDO O</h1>
+            <h2 class="inicio__subtitulo">IMPOSTO DE RENDA</h2>
+            <p class="inicio__paragrafo">DECLARE SEU IMPOSTO DE RENDA DA FORMA MAIS FÁCIL E DESCOMPLICADA EM 2023 COM A DESBRAVE!</p>
+            <a href="https://forms.office.com/" class="inicio__botao">QUERO RECEBER UM ORÇAMENTO</a>
+        </div>
+
+        <!-- Secao sobre duvidas -->
+        <section class="duvidas">
+            <div class="container__duvidas">
+                <p class="duvidas__texto duvidas__texto--paragrafo">NÃO SE PREOCUPE, É COMUM TER DÚVIDAS SOBRE A DECLARAÇÃO DO IMPOSTO DE RENDA, SEJA EM RELAÇÃO AOS BENS QUE DEVEM SER DECLARADOS OU SOBRE COMO PREENCHER TUDO CORRETAMENTE. MAS VOCÊ NÃO PRECISA PASSAR POR ESSE ESTRESSE SOZINHO(A)!</p>
+                <p class="duvidas__texto duvidas__texto--convite">A DESBRAVE REALIZA TODO O PROCESSO DA DECLARAÇÃO, TUDO COM MUITA SEGURANÇA E FACILIDADE.</p>
+            </div>
+            <div class="container__especial">
+                <img class="especiais__imagem" src="./img/circulo_azul.png" alt="foto de um circulo azul com estrelha em cima">
+                <img class="especiais__imagem_rosa" src="./img/bolinha_rosa.png" alt="circulo rosa da desbrave">
+                <h2 class="especial__titulo">DECLARAÇÃO COMPLETA PARA SEU IR:</h2>
+                <p class="texto__bolinha">FECHANDO O SERVIÇO DE IR EM FEVEREIRO, VOCÊ TERÁ UMA <strong class="negrito">CONDIÇÃO SUPER ESPECIAL</strong> NO INVESTIMENTO!</p>
+                <div class="container__texto">
+                    <p class="especial__texto">⦁ GANHO DE CAPITAL NA VENDA DE ATIVOS</p>
+                    <p class="especial__texto">⦁ EMISSÃO DA DARF DA BOLSA DE VALORES</p>
+                    <p class="especial__texto">⦁ DECLARAÇÃO DE ATIVOS DA BOLSA DE VALORES</p>
+                    <p class="especial__texto">⦁ CARNÊ LEÃO</p>
+                </div>
+                <a href="#" class="especial__botao">QUERO APROVEITAR A CONDIÇÃO ESPECIAL!</a> 
+            </div>
+        </section>
+
+        <!-- Secao sobre condicoes especiais -->
+        <section class="condicoes__especiais">
+            <div class="especiais__historia">
+                <p class="historia__texto_um">EM</p>
+                <p class="historia__texto_dois">2 ANOS</p>
+                <p class="historia__texto_tres">FIZEMOS</p>
+    
+                <p class="numero__texto_um">+60</p>
+                <p class="numero__texto_dois">DECLARAÇÕES DE IMPOSTO DE RENDA!</p>    
+            </div>     
+        </section>
+
+        <!-- Secao como funciona -->
+        <section class="como__funciona">
+            <img class="como__funciona--imagem" src="./img/circulo_amarelo.png" alt="imagem de um circulo amarelo da desbrave">
+            <h3 class="como__funciona--titulo">COMO FUNCIONA?</h3>
+                <div class="como__funciona__itens">
+                    <p class="item__texto"><strong class="negrito">FORMULÁRIO</strong> PARA ENTENDIMENTO DA COMPLEXIDADE DO SEU IR.</p>
+                    <p class="item__texto">ENVIO DA <strong class="negrito">PROPOSTA FINAL</strong> COM TODAS AS INFORMAÇÕES NECESSÁRIAS.</p>
+                    <p class="item__texto"><strong class="negrito">ENVIO DA DOCUMENTAÇÃO</strong> ENVIO DA DOCUMENTAÇÃO DO CLIENTE PARA A DESBRAVE.</p>
+                    <p class="item__texto"><strong class="negrito">INÍCIO DOS TRABALHOS:</strong> APÓS A CONFIRMAÇÃO DO PAGAMENTO, O IR SERÁ FEITO EM ATÉ 10 DIAS ÚTEIS.</p>
+                    <p class="item__texto"><strong class="negrito">IMPOSTO DE RENDA</strong> DESBRAVADO COM SUCESSO!</p>   
+                </div>
+                <div class="como__funciona__numeros">
+                    <p class="item__numero">1</p>
+                    <p class="item__numero">2</p>
+                    <p class="item__numero">3</p>
+                    <p class="item__numero">4</p>
+                    <p class="item__numero">5</p>
+                </div>
+        </section>
+
+        <!-- Secao carrosel comentarios -->
+
+        <section class="carrosel">
+            <!--<h2 class="carrossel__titulo">Feedbacks</h2>-->
+            <div class="carrosel__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img class="carrossel__imagem" src="img/feedback_1.png" alt="card contendo feedback de cliente"></div>
+                        <div class="swiper-slide"><img class="carrossel__imagem" src="img/feedback_2.png" alt="card contendo feedback de cliente"></div>
+                        <div class="swiper-slide"><img class="carrossel__imagem" src="img/feedback_3.png" alt="card contendo feedback de cliente"></div>
+                        <div class="swiper-slide"><img class="carrossel__imagem" src="img/feedback_4.png" alt="card contendo feedback de cliente"></div>
+                        <div class="swiper-slide"><img class="carrossel__imagem" src="img/feedback_5.png" alt="card contendo feedback de cliente"></div>
+                        <div class="swiper-slide"><img class="carrossel__imagem" src="img/feedback_6.png" alt="card contendo feedback de cliente"></div>
+                    </div>
+                    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Secao resolva o IR -->
+
+        <section class="resolvido__ir">
+            <h2 class="resolvido__ir--titulo">JÁ DEIXE LOGO TUDO ISSO <strong class="negrito__ir">RESOLVIDO!</strong></h2>
+            <div class="aofechar__cointainer">
+                
+                <p class="aofechar__texto--principal">AO FECHAR O IR COM A DESBRAVE EM FEVEREIRO VOCÊ TERÁ:</p>
+                <p class="aofechar__texto">⦁ VALORES DOS HONORÁRIOS DE 2023 NÃO ATUALIZADOS;</p>
+                <p class="aofechar__texto">⦁ SEU IR SERÁ ENVIADO DENTRO DA PRIMEIRA SEMANA DE ABERTURA DO PRAZO;</p>
+                <p class="aofechar__texto">⦁ RECEBERÁ A RESTITUIÇÃO NO PRIMEIRO LOTE, CASO TENHA.</p>
+                <a href="#" class="aofechar__botao">QUERO DESBRAVAR MEU IMPOSTO DE RENDA EM FEVEREIRO!</a>
+            </div>
+            
+        </section>
+
+
+        <!-- Secao chega de problemas -->
+
+        <section class="chega__problemas">
+            <h3 class="problemas__titulo">CHEGA DE PROBLEMAS NESSE MOMENTO!</h3>
+            <h4 class="problemas__subtitulo">VAMOS JUNTOS NESSA DESBRAVAR O IR!</h4>
+        </section>
+
+        <!-- Rodape da pagina -->
+
+        <footer class="rodape">
+            <img class="rodape__imagem" src="./img/logo_desbrave.png" alt="imagem de logo da desbrave">
+            <div class="rodape__links">
+                <a href="#" class="links__item">@desbravefinancas</a>
+                <p class="links__item">+55 61 99270-8914</p>
+                <a href="#" class="links__item">desbravandoir@gmail.com</a>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+    </body>
+</html>

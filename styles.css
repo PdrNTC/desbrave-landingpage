@@ -1,0 +1,35 @@
+/*Importando o css que esta na pasta styles */
+@import url("styles/inicio.css");
+@import url("styles/duvidas.css");
+@import url("styles/especial.css");
+@import url("styles/comoFunciona.css");
+@import url("styles/carrosel.css");
+@import url("styles/resolvidoIr.css");
+@import url("styles/header.css");
+@import url("styles/problemas.css");
+@import url("styles/rodape.css");
+
+/* Criando variaveis no CSS */
+:root {
+    --fonte-principal: 'Montserrat';
+    --laranja: #E1A824;
+    --azul-escuro: #051A41;
+    --rosa: #DDA6CC;
+    --roxo: #673A73;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;    
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background-color: var(--roxo);
+    border-radius: 100px;
+  }
+

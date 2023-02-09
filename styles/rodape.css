@@ -1,0 +1,55 @@
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: var(--azul-escuro);
+    
+}
+
+.rodape__imagem {
+    width: 128px;
+    height: 29px;
+    margin: 1em 0em;
+    margin-left: 8em;
+}
+
+.rodape__links {
+    margin-left: 7.5em;
+    padding-bottom: 2em;
+}
+
+.links__item {
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.035em;
+    line-height: 174.4%;
+    color: #CCCCCC;
+}
+
+
+/*Layout desktop*/
+
+@media screen and (min-width: 1728px) {
+    .rodape__imagem {
+        width: 400px;
+        height: 93px;
+        margin: 2em 0em;
+        margin-left: 40em;
+    }
+    
+    .rodape__links {
+        margin-left: 43em;
+        padding-bottom: 3em;
+    }
+    
+    .links__item {
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        letter-spacing: 0.035em;
+        line-height: 174.4%;
+        color: #CCCCCC;
+    }
+    
+}

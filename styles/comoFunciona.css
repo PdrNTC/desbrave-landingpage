@@ -1,0 +1,117 @@
+.como__funciona {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 340px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 1em 1.5em;
+}
+
+.container__como__funciona {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.como__funciona--imagem {
+    width: 42px;
+    height: 232px;
+    margin-left: -2em;
+    margin-top: -7em;
+}
+
+.como__funciona--titulo {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--laranja);
+    margin-left: 0.9em;
+    margin-top: -3em;
+}
+
+.como__funciona__itens {
+    width: 95%;
+}
+
+.item__texto {
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 176.4%;
+    letter-spacing: 0.035em;
+    margin-left: 9em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+
+.negrito {
+    color: var(--laranja);
+}
+
+.como__funciona__numeros {
+    margin-top: -13em;
+    margin-left: 2.5em;
+}
+
+.item__numero {
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 1.5em;
+    padding-bottom: 0.7em;
+}
+
+/*Layout desktop*/ 
+
+@media screen and (min-width: 1728px) {
+    .como__funciona {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1087px;
+        background-color: var(--azul-escuro);
+        color: var(--branco);
+    }
+
+    .como__funciona--imagem {
+        width: 132px;
+        height: 719px;
+        margin-top: -29em;
+    }
+
+    .como__funciona--titulo {
+        width: 40%;
+        font-size: 106px;
+        font-weight: 800;
+        color: var(--laranja);
+        margin-top: 1em;
+        margin-right: 6em;
+    }
+
+    .como__funciona__itens {
+      margin-top: 2em;
+      margin-left: 6em;
+    }
+
+    .como__funciona__numeros {
+        margin-right: 43em;
+        margin-left: 32em;
+        margin-top: -41em;
+    }
+
+    .item__numero {
+        font-size: 74px;
+        font-weight: 800;
+        padding-bottom: 0.8em;
+        padding-top: 0em;
+    }
+
+    .item__texto {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 44.1px;
+        letter-spacing: 0.035em;
+        margin-left: 20em;
+        padding-bottom: 1em;
+        width: 45%
+    }
+    
+    
+}

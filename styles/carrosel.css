@@ -1,6 +1,5 @@
 .carrosel {
     padding: 1em 0em;
-    height: 250px;
     background: url('../img/bg_feedback.png') no-repeat;
 }
 .carrosel__container {
@@ -19,7 +18,7 @@
 }
 
 .carrossel__imagem {
-    width: 100%;
+    width: 120%;
 }
 
 .swiper-button-prev, 

@@ -1,7 +1,6 @@
 .duvidas {
     display: flex;
     flex-wrap: wrap;
-    height: 282px;
     background-color: var(--laranja);
 }
 
@@ -34,6 +33,53 @@
     letter-spacing: 0.07em;
     text-align: center;
 }
+
+/*Layout tablet*/
+
+@media screen and (min-width: 1024px) {
+
+    .duvidas{
+        padding: 3em;
+    }
+    .duvidas__texto--paragrafo {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 190.4%;
+        text-align: center;
+        letter-spacing: 0.055em;
+    }
+    
+    .duvidas__texto--convite {
+        margin: 2em 7em;
+        color: var(--branco);
+        font-weight: 800;
+        font-size: 33px;
+        line-height: 147.4%;
+        text-align: center;
+        letter-spacing: 0.07em;
+        width: 66%;
+    }
+}
+
+
+
+@media screen and (min-width: 1220px) {
+
+    .container__duvidas {
+        margin: 0em;
+    }
+
+    .duvidas__texto--paragrafo {
+        margin-bottom: 1.5em;
+    }
+
+    .duvidas__texto--convite {
+        margin: 3em 5.5em;
+    }
+    
+}
+
+
 
 /*Layout desktop*/
 

@@ -1,18 +1,33 @@
 .condicoes__especiais {
     display: flex;
+    padding: 1.5em;
+    background: url('../img/bolinha_rosa.png') no-repeat;
+    background-size: 100px 115px;
+    background-position: 100% 100%;
+    margin-bottom: 12em;
+    
 }
 
 .container__especial {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     height: 221px;
     background: #F8F8F8;
     border-radius: 16px;
     box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.05);
-    margin-left: 2em;
-    width: 85%;
-    /*
-    background: url('../img/bolinha_rosa.png') no-repeat;*/
+    background: url('../img/circulo_azul.png') no-repeat;
+    background-size: 110px 114px;
+    background-position: 100% 0%;
+}
+
+.especiais__imagem {
+    width: 116px;
+    height: 114px;
+}
+
+.especiais__imagem_rosa {
+    width: 100px;
+    height: 165px;
 }
 
 .especial__titulo {
@@ -21,29 +36,19 @@
     font-size: 17px;
     line-height: 109.4%;
     letter-spacing: 0.08em;
-    width: 170px;
-    height: 81px;
-    margin-top: -13.5em;
-    margin-left: 2em;
+    padding: 1em 2em;
+    width: 50%;
 }
 
 .texto__bolinha {
     font-size: 7px;
     color: var(--branco);
-    width: 21%;
     text-align: center;
-    margin-left: 38em;
-    margin-top: -6em;
     letter-spacing: 0.055em;
-    line-height: 108.4%;
+    line-height: 125.4%;
+    width: 29%;
+    margin-top: 5em;
 
-}
-
-
-.container__texto {
-    margin-top: 1.5em;
-    height: 68px;
-    margin-left: 1.7em;
 }
 
 .especial__texto {
@@ -52,10 +57,7 @@
     font-weight: 700;
     line-height: 14.73px;
     letter-spacing: 0.035em;
-    margin-bottom: 0.7em;
-    margin-top: -2em;
-    margin-bottom: 2em;
-    margin-left: 1.5em;
+    padding: 0em 6em;
 }
 
 .especial__botao {
@@ -69,53 +71,34 @@
     color: var(--branco);
     background-color: var(--laranja);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.06);
-    width: 55%;
-    padding: 1em 4em;
-    margin: 2em 2em;
+    padding: 1em;
+    margin: 3em 3em;
+    margin-left: 9em;
 }
 
-.especiais__imagem {
-    margin-left: 15em;
-    width: 116px;
-    height: 114px;
-}
-
-.especiais__imagem_rosa {
-    margin-left: 16em;
-    width: 100px;
-    height: 165px;
-}
-
-.especiais__historia {
+.container__historia {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 15em;
+    margin-top: 7em;
+    margin-left: 2em;
 }
 
-.historia__texto_um {
+.container__numero {
+    display: flex;
+    margin-left: 2em;
+}
+
+.historia__texto {
     color: var(--laranja);
-    height: 20px;
     font-size: 17px;
     font-weight: 800;
-    margin-top: 0.5em;
-    margin-left: 3em;
+    width: 17%;
+    margin-top: -0.5em;
 }
 
-.historia__texto_dois {
-    color: var(--laranja);
+.texto__dois {
     font-size: 38px;
     font-weight: 800;
-    letter-spacing: 0.02em;
-}
-
-.historia__texto_tres {
-    color: var(--laranja);
-    font-size: 17px;
-    font-weight: 800;
-    letter-spacing: 0.02em;
-    margin-top: 0.5em;
-    margin-right: 2em;
+    width: 66%;
 }
 
 .numero__texto_um {
@@ -123,154 +106,269 @@
     font-size: 60px;
     font-weight: 800;
     letter-spacing: 0.02em;
-    margin-left: 0.5em;
-    margin-bottom: 1em;
 }
 
 .numero__texto_dois {
     color: var(--azul-escuro);
-    width: 50%;
+    width: 60%;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: 0.02em;
     margin-top: 1em;
-    margin-right: 2em;
+    margin-left: 0.3em;
+
 }
 
-/*Layout desktop*/
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1024px) {
     .condicoes__especiais {
-        display: flex;
-        height: 1270px;
+        background: url('../img/bolinha_rosa.png') no-repeat;
+        background-size: 400px 330px;; 
+        background-position: 100% 80%;
     }
     
     .container__especial {
-        display: flex;
-        flex-direction: column;
-        height: 804px;
+        height: 885px;
         background: #F8F8F8;
-        box-shadow: 0px 4px 10px 8px rgba(0, 0, 0, 0.05);
-        border-radius: 81px;
-        margin-left: 11em;
-        margin-top: 6em;
+        border-radius: 16px;
+        box-shadow: 0px 4px 9px 1px rgb(0 0 0 / 5%);
+        background: url(../img/circulo_azul.png) no-repeat;
+        /*
+        background-size: 350px 300px;*/
+        background-position: 86% 0%;
+        margin-bottom: 27em;
     }
 
     .especial__titulo {
         color: var(--laranja);
         font-weight: 800;
         font-size: 58px;
-        line-height: 63.45px;
+        line-height: 109.4%;
         letter-spacing: 0.08em;
         width: 40%;
-        margin-left: 3em;
-        padding-bottom: 1em;
     }
+
 
     .texto__bolinha {
         font-size: 25px;
-        font-weight: 700;
         color: var(--branco);
-        width: 23%;
-        margin-left: 48em;
-        margin-top: -5em;
         text-align: center;
         letter-spacing: 0.055em;
-        line-height: 151.4%;
+        line-height: 125.4%;
+        width: 16%;
+        margin-top: -6em;
+        margin-left: 42em;
     }
-    
-    .container__texto {
-        width: 60%;
-        margin: 7em 10em;
-    }
-    
+
     .especial__texto {
         color: var(--azul-escuro);
         font-size: 26px;
         font-weight: 700;
-        line-height: 54.7px;
+        line-height: 210.4%;
         letter-spacing: 0.035em;
     }
 
     .especial__botao {
-        text-decoration: none;
-        text-align: center;
-        font-weight: 800;
         font-size: 26px;
-        line-height: 32.86px;
-        letter-spacing: 0.05em;
-        border-radius: 15px;
-        color: var(--branco);
-        background-color: var(--laranja);
-        box-shadow: 0px 4px 9px 4px rgba(0, 0, 0, 0.13);
-        padding: 1em 1em;
-        width: 50%;
-        margin-top: 2em;
+    }
+
+        
+    .container__historia {
+        margin-top: 20em;
+        margin-left: 12em;
+    }
+
+    .container__numero {
+        margin-top: 0em;
         margin-left: 14em;
     }
 
-    .especiais__imagem {
-        width: 564px;
-        height: 562px;
-        margin-left: 57vw;
-        margin-top: -5em;
-    }
-
-    .especial__texto__imagem {
-        width: 30%;
-    }
-    
-    .especiais__imagem_rosa {
-        width: 284px;
-        height: 400px;
-        margin-left: 70vw;
-    }
-
-    .especiais__historia {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 50em;
-    }
-
-    .historia__texto_um {
+    .historia__texto {
         color: var(--laranja);
-        font-size: 55px;
+        font-size: 96px;
         font-weight: 800;
-        margin-left: 7em;
+        width: 17%;
+        margin-top: -0.5em;
     }
-    
-    .historia__texto_dois {
-        color: var(--laranja);
+
+    .texto__dois {
         font-size: 131px;
         font-weight: 800;
-    }
-    
-    .historia__texto_tres {
-        color: var(--laranja);
-        font-size: 55px;
-        font-weight: 800;
-        letter-spacing: 0.02em;
-        margin-right: 7em;
+        width: 49%;
     }
 
     .numero__texto_um {
         color: var(--azul-escuro);
-        font-size: 190px;
+        font-size: 195px;
         font-weight: 800;
         letter-spacing: 0.02em;
-        margin-right: 1em;
-        margin-left: 2em;
     }
-    
+
     .numero__texto_dois {
         color: var(--azul-escuro);
+        width: 60%;
         font-size: 58px;
         font-weight: 800;
         letter-spacing: 0.02em;
+        margin-top: 0.4em;
+        margin-left: 0.3em;
+
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 1220px) {
+    .container__especial {
+        background-size: 350px 400px;
+    }
+
+    .condicoes__especiais {
+        background-size: 250px 250px;
+    }
+    
+    .texto__bolinha {
+        font-size: 24px;
+        color: var(--branco);
+        text-align: center;
+        letter-spacing: 0.055em;
+        line-height: 125.4%;
+        width: 22%;
+        margin-top: -8em;
+        margin-left: 32em;
+    }
+
+    .container__texto {
+        margin-top: 7em;
+    }
+
+    .container__historia {
+        margin-left: 0em;
+    }
+
+    .texto__dois {
+        width: 48%;
+    }
+
+    .container__numero {
+        margin-left: 4em;
+        
+    }
+
+    .numero__texto_dois {
+        margin-top: 1em;
+        margin-left: 0em;
+    }
+
+}
+
+
+
+
+
+/*Layout desktop*/
+
+@media screen and (min-width: 1728px) {
+
+    .condicoes__especiais {
+        background: url('../img/bolinha_rosa.png') no-repeat;
+        background-size: 400px 330px;; 
+        background-position: 100% 80%;
+    }
+    
+    .container__especial {
+        height: 885px;
+        background: #F8F8F8;
+        border-radius: 16px;
+        box-shadow: 0px 4px 9px 1px rgb(0 0 0 / 5%);
+        background: url(../img/circulo_azul.png) no-repeat;
+        /*
+        background-size: 350px 300px;*/
+        background-position: 86% 0%;
+        margin-bottom: 27em;
+    }
+
+    .especial__titulo {
+        color: var(--laranja);
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 109.4%;
+        letter-spacing: 0.08em;
         width: 40%;
-        margin-top: -5.8em;
+    }
+
+
+    .texto__bolinha {
+        font-size: 25px;
+        color: var(--branco);
+        text-align: center;
+        letter-spacing: 0.055em;
+        line-height: 125.4%;
+        width: 11%;
+        margin-top: -6em;
+        margin-left: 52.3em;
+    }
+
+    .container__texto {
+        margin-top: -7em;
+    }
+
+
+    .especial__texto {
+        color: var(--azul-escuro);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 210.4%;
+        letter-spacing: 0.035em;
+    }
+
+    .especial__botao {
+        font-size: 26px;
+    }
+
+        
+    .container__historia {
+        margin-top: 20em;
+        margin-left: 12em;
+    }
+
+    .container__numero {
+        margin-top: 0em;
         margin-left: 14em;
+    }
+
+    .historia__texto {
+        color: var(--laranja);
+        font-size: 96px;
+        font-weight: 800;
+        width: 17%;
+        margin-top: -0.5em;
+    }
+
+    .texto__dois {
+        font-size: 131px;
+        font-weight: 800;
+        width: 49%;
+    }
+
+    .numero__texto_um {
+        color: var(--azul-escuro);
+        font-size: 195px;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+    }
+
+    .numero__texto_dois {
+        color: var(--azul-escuro);
+        width: 50%;
+        font-size: 58px;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        margin-top: 1em;
+        margin-left: 0em;
+
     }
     
 }

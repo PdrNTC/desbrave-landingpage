@@ -19,6 +19,48 @@
     height: 269px;
 }
 
+
+/*Layout tablet*/ 
+@media screen and (min-width: 1024px) {
+    .cabecalho__imagem {
+        display: flex;
+        width: 109px;
+        height: 25px;
+        margin: 0.5em 2em;
+    }
+
+    .cabecalho__imagem_mao {
+        display: flex;
+        width: 144px;
+        height: 269px;
+    }
+    
+      
+}
+
+/*Layout tablet*/
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        height: 134px;
+    }
+
+    .cabecalho__imagem {
+        margin: 2em 6em;
+        width: 311px;
+        height: 73px;
+    }
+
+    .cabecalho__imagem_mao {
+        width: 350px;
+        height: 800px;
+    }
+    
+}
+
+
+
+
 /*Layout desktop*/
 
 @media screen and (min-width: 1728px) {
@@ -34,7 +76,6 @@
     }
 
     .cabecalho__imagem_mao {
-        display: flex;
         width: 598px;
         height: 1100px;
     }

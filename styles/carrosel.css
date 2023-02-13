@@ -3,7 +3,7 @@
     background: url('../img/bg_feedback.png') no-repeat;
 }
 .carrosel__container {
-    margin: 3.2em -3em;
+    margin: 3em 0em;
 }
 
 .carrossel__titulo {
@@ -15,7 +15,7 @@
 }
 
 .carrossel__imagem {
-    width: 105%;
+    width: 110%;
 }
 
 .swiper-button-prev, 
@@ -36,7 +36,11 @@
 @media screen and (min-width: 1024px) {
     .carrosel__container {
         margin: 5.5em 0em;
-    }  
+    }
+    
+    .carrossel__imagem {
+        width: 100%;
+    }
 
     .swiper-button-prev, 
     .swiper-button-next {

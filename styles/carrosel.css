@@ -3,12 +3,9 @@
     background: url('../img/bg_feedback.png') no-repeat;
 }
 .carrosel__container {
-    margin: 3.2em 0em;
+    margin: 3.2em -3em;
 }
 
-.swiper swiper-button-prev {
-    display: none;
-}
 .carrossel__titulo {
     color: var(--laranja);
     text-align: center;
@@ -18,7 +15,7 @@
 }
 
 .carrossel__imagem {
-    width: 120%;
+    width: 105%;
 }
 
 .swiper-button-prev, 
@@ -30,6 +27,28 @@
     position: initial;
     margin: 0.5em 0;
 }
+
+
+
+/*Layout tablet/notebook*/
+
+
+@media screen and (min-width: 1024px) {
+    .carrosel__container {
+        margin: 5.5em 0em;
+    }  
+
+    .swiper-button-prev, 
+    .swiper-button-next {
+        display: none;
+    }
+    
+
+}
+
+
+
+
 
 /*Layout desktop*/
 

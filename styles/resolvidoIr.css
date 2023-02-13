@@ -141,7 +141,7 @@
 @media screen and (min-width: 1220px) {
 
     .resolvido__ir--titulo {
-        width: 80%;
+        width: 70%;
     }
 
     .aofechar__cointainer {
@@ -150,8 +150,9 @@
     }
 
     .aofechar__botao {
-        width: 75%;
-        margin-left: 0em;
+        width: 57%;
+        padding: 1em 2.5em;
+        margin-left: 3em;
     }
 
     

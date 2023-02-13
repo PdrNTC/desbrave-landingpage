@@ -51,6 +51,11 @@
 
 
 @media screen and (min-width: 1220px) {
+
+    .problemas__titulo {
+        width: 60%;
+    }
+
     .problemas__subtitulo {
         width: 60%;
         margin-left: 6em;

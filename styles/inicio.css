@@ -104,6 +104,10 @@
     .inicio__subtitulo {
         width: 60%;
     }
+
+    .inicio__paragrafo {
+        width: 40%;
+    }
     
 }
 

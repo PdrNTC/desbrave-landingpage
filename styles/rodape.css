@@ -61,6 +61,15 @@
     .rodape {
         margin-left: 0em;
     }
+
+    .rodape__imagem {
+        margin-left: 29em;
+    }
+
+    .rodape__links {
+        margin-left: 32em;
+        padding-bottom: 3em;
+    }
     
 }
 

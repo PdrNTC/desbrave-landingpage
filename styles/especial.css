@@ -236,9 +236,9 @@
         text-align: center;
         letter-spacing: 0.055em;
         line-height: 125.4%;
-        width: 19%;
+        width: 22%;
         margin-top: -8em;
-        margin-left: 46em;
+        margin-left: 33em;
     }
 
     .container__texto {
@@ -246,7 +246,8 @@
     }
 
     .container__historia {
-        margin-left: 14em;
+        margin-top: 15em;
+        margin-left: 2em;
     }
 
     .texto__dois {
@@ -254,13 +255,14 @@
     }
 
     .container__numero {
-        margin-left: 18em;
+        margin-left: 7em;
         
     }
 
     .numero__texto_dois {
         margin-top: 1em;
         margin-left: 0em;
+        width: 70%;
     }
 
 }

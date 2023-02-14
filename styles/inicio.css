@@ -106,7 +106,11 @@
     }
 
     .inicio__paragrafo {
-        width: 55%;
+        width: 45%;
+    }
+
+    .inicio__botao {
+        width: 40%;
     }
     
 }

@@ -15,14 +15,18 @@
     background: #F8F8F8;
     border-radius: 16px;
     box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.05);
+    /*
     background: url('../img/circulo_azul.png') no-repeat;
     background-size: 110px 114px;
-    background-position: 100% 0%;
+    background-position: 100% 0%;*/
 }
 
 .especiais__imagem {
     width: 116px;
-    height: 114px;
+    height: 137px;
+    margin-left: 14em;
+    margin-bottom: -2em;
+    margin-top: -6em;
 }
 
 .especiais__imagem_rosa {
@@ -38,17 +42,6 @@
     letter-spacing: 0.08em;
     padding: 1em 2em;
     width: 50%;
-}
-
-.texto__bolinha {
-    font-size: 7px;
-    color: var(--branco);
-    text-align: center;
-    letter-spacing: 0.055em;
-    line-height: 125.4%;
-    width: 29%;
-    margin-top: 5em;
-
 }
 
 .especial__texto {
@@ -130,13 +123,13 @@
     .container__especial {
         height: 885px;
         background: #F8F8F8;
-        border-radius: 16px;
+        border-radius: 81px;
         box-shadow: 0px 4px 9px 1px rgb(0 0 0 / 5%);
-        background: url(../img/circulo_azul.png) no-repeat;
         /*
+        background: url(../img/circulo_azul.png) no-repeat;
         background-size: 350px 300px;*/
         background-position: 86% 0%;
-        margin-bottom: 27em;
+        margin-bottom: 16em;
     }
 
     .especial__titulo {
@@ -148,17 +141,12 @@
         width: 40%;
     }
 
-
-    .texto__bolinha {
-        font-size: 25px;
-        color: var(--branco);
-        text-align: center;
-        letter-spacing: 0.055em;
-        line-height: 125.4%;
-        width: 16%;
-        margin-top: -6em;
-        margin-left: 42em;
+    .especiais__imagem {
+        width: 470px;
+        height: 463px;
+        margin-left: 1em;
     }
+
 
     .especial__texto {
         color: var(--azul-escuro);
@@ -221,48 +209,43 @@
 
 
 @media screen and (min-width: 1220px) {
-    .container__especial {
-        background-size: 350px 400px;
-    }
-
     .condicoes__especiais {
-        background-size: 350px 350px;
+        background-size: 403px 560px;
         background-position: 100% 60%;
     }
-    
-    .texto__bolinha {
-        font-size: 24px;
-        color: var(--branco);
-        text-align: center;
-        letter-spacing: 0.055em;
-        line-height: 125.4%;
-        width: 22%;
-        margin-top: -8em;
-        margin-left: 33em;
+
+    .especial__titulo {
+        width: 40%;
+    }
+
+
+    .especiais__imagem {
+        width: 400px;
+        height: 400px;
+        margin-left: 4em;
     }
 
     .container__texto {
-        margin-top: 7em;
+        margin-top: 0em;
     }
 
     .container__historia {
-        margin-top: 15em;
-        margin-left: 2em;
+        margin-top: 16em;
     }
 
     .texto__dois {
         width: 48%;
     }
-
+    /*
     .container__numero {
         margin-left: 7em;
         
     }
-
+    */
     .numero__texto_dois {
         margin-top: 1em;
         margin-left: 0em;
-        width: 70%;
+        width: 100%;
     }
 
 }
@@ -277,21 +260,28 @@
 
     .condicoes__especiais {
         background: url('../img/bolinha_rosa.png') no-repeat;
-        background-size: 400px 330px;; 
-        background-position: 100% 80%;
+        background-size: 403px 560px;
+        background-position: 100% 60%;
     }
     
     .container__especial {
         height: 885px;
         background: #F8F8F8;
-        border-radius: 16px;
+        border-radius: 81px;
         box-shadow: 0px 4px 9px 1px rgb(0 0 0 / 5%);
-        background: url(../img/circulo_azul.png) no-repeat;
         /*
-        background-size: 350px 300px;*/
-        background-position: 86% 0%;
+        background: url(../img/circulo_azul.png) no-repeat;
+        background-size: 350px 300px;
+        background-position: 86% 0%;*/
         margin-bottom: 27em;
     }
+
+    .especiais__imagem {
+        width: 567px;
+        height: 563px;
+        margin-left: 16em;
+    }
+
 
     .especial__titulo {
         color: var(--laranja);
@@ -299,19 +289,7 @@
         font-size: 58px;
         line-height: 109.4%;
         letter-spacing: 0.08em;
-        width: 40%;
-    }
-
-
-    .texto__bolinha {
-        font-size: 25px;
-        color: var(--branco);
-        text-align: center;
-        letter-spacing: 0.055em;
-        line-height: 125.4%;
-        width: 11%;
-        margin-top: -6em;
-        margin-left: 52.3em;
+        width: 30%;
     }
 
     .container__texto {
@@ -333,7 +311,7 @@
 
         
     .container__historia {
-        margin-top: 23em;
+        margin-top: 28em;
         margin-left: 19em;
     }
 
@@ -365,7 +343,7 @@
 
     .numero__texto_dois {
         color: var(--azul-escuro);
-        width: 50%;
+        width: 60%;
         font-size: 58px;
         font-weight: 800;
         letter-spacing: 0.02em;

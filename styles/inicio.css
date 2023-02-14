@@ -101,13 +101,18 @@
         padding: 2em 2em;
     }
 
+    .inicio__titulo {
+        margin: 0.2em 1.2em;
+    }
+
     .inicio__subtitulo {
         width: 60%;
-        margin: 0em 1em;
+        margin: 0em 0.5em;
     }
 
     .inicio__paragrafo {
         width: 45%;
+        margin: 1em 2.5em;
     }
 
     .inicio__botao {
@@ -144,6 +149,7 @@
         color: var(--azul-escuro);
         letter-spacing: 0.05em;
         width: 50%;
+        margin: 0em 1em;
     }
 
     .inicio__paragrafo {

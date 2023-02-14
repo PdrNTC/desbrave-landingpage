@@ -71,13 +71,15 @@
 
 .container__historia {
     display: flex;
+    justify-content: center;
+    text-align: center;
     margin-top: 7em;
-    margin-left: 2em;
+ 
 }
 
 .container__numero {
     display: flex;
-    margin-left: 2em;
+    justify-content: center;
 }
 
 .historia__texto {
@@ -91,7 +93,7 @@
 .texto__dois {
     font-size: 38px;
     font-weight: 800;
-    width: 66%;
+    width: 63%;
 }
 
 .numero__texto_um {
@@ -218,7 +220,6 @@
         width: 40%;
     }
 
-
     .especiais__imagem {
         width: 400px;
         height: 400px;
@@ -231,6 +232,7 @@
 
     .container__historia {
         margin-top: 16em;
+        margin-left: 0em;
     }
 
     .texto__dois {

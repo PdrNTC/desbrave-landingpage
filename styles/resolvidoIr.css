@@ -62,8 +62,8 @@
     border-radius: 13px;
     color: var(--branco);
     display: flex;
-    width: 100%;
-    padding: 2em 2em;
+    width: 90%;
+    padding: 1em 2em;
     margin-bottom: 5em;
     margin-left: -7em;
 }
@@ -155,8 +155,8 @@
     }
 
     .aofechar__botao {
-        width: 76%;
-        padding: 1em 2.5em;
+        width: 80%;
+        padding: 1em 1em;
         margin-left: 0em;
     }
 
@@ -224,8 +224,8 @@
         color: var(--branco);
         margin-top: 4em;
         margin-left: 0.2em;
-        width: 70%;
-        padding: 2em 4em;
+        width: 83%;
+        padding: 2em 1em;
     }
     
     
